@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registro - Games Review</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .register-container {
+      max-width: 450px;
+      margin: 60px auto;
+      background: #1f1f1f;
+      padding: 30px 25px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(255, 126, 95, 0.2);
+    }
+
+    .register-container h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #ffb77a;
+      font-size: 28px;
+    }
+
+    .register-form {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .register-form input {
+      padding: 12px 16px;
+      border-radius: 30px;
+      border: 2px solid #444;
+      background: #222;
+      color: #eee;
+      font-size: 16px;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .register-form input:focus {
+      outline: none;
+      border-color: #ff7e5f;
+      box-shadow: 0 0 6px #ff7e5faa;
+    }
+
+    .register-form button {
+      margin-top: 10px;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      color: #feb47b;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .back-link:hover {
+      color: #ff7e5f;
+    }
+
+    @media (max-width: 500px) {
+      .register-container {
+        margin: 40px 16px;
+        padding: 25px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo">
+      <span class="site-title">Games Review</span>
+    </div>
+    <a href="index.html" class="register-btn">Voltar</a>
+  </header>
+
+  <main>
+    <div class="register-container">
+      <h2>Criar sua conta</h2>
+      <form class="register-form">
+        <input type="text" placeholder="Nome completo" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Senha" required />
+        <input type="password" placeholder="Confirmar senha" required />
+        <button type="submit" class="register-btn">Registrar</button>
+      </form>
+      <a href="index.html" class="back-link">← Voltar para a página inicial</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Games Review. Todos os direitos reservados.
+  </footer>
+</body>
+</html>

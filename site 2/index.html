@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Review de Jogos</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+  <div class="logo">
+    <svg width="40" height="40" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="6" y="20" rx="12" ry="12" width="52" height="24" fill="#222" stroke="#ff7e5f" stroke-width="2"/>
+      <circle cx="20" cy="32" r="4" fill="#fff" />
+      <rect x="17" y="29" width="2" height="6" fill="#ff7e5f"/>
+      <rect x="21" y="29" width="2" height="6" fill="#ff7e5f"/>
+      <circle cx="44" cy="28" r="3" fill="#ffcc00" />
+      <circle cx="50" cy="34" r="3" fill="#00ccff" />
+      <polygon points="32,10 34,15 39,16 35,20 36,25 32,22 28,25 29,20 25,16 30,15" fill="#ffd700"/>
+      <polygon points="10,10 11,13 14,14 12,16 13,19 10,17 7,19 8,16 6,14 9,13" fill="#ffb700"/>
+    </svg>
+    <span class="site-title">Games Review</span>
+  </div>
+  <input type="text" placeholder="Buscar jogos..." class="search-bar" />
+  <a href="registro.html" class="register-btn">Registrar</a>
+</header>
+
+<main>
+  <section class="highlight-section">
+    <h1><span class="gradient-text">GAMES REVIEW</span></h1>
+    <p>Encontre seu próximo momento inesquecível nos games</p>
+  </section>
+
+  <section class="filters">
+    <select>
+      <option>Todas as plataformas</option>
+      <option>PC</option>
+      <option>PS5</option>
+      <option>Xbox One</option>
+    </select>
+    <select>
+      <option>Todos os gêneros</option>
+      <option>Ação</option>
+      <option>RPG</option>
+      <option>Indie</option>
+    </select>
+    <select>
+      <option>Qualquer nota</option>
+      <option>80+</option>
+      <option>70+</option>
+      <option>60+</option>
+    </select>
+  </section>
+
+  <section class="game-section">
+    <div class="section-header">
+      <h2>New Releases</h2>
+    </div>
+    <div class="game-slider">
+      <div class="game-card">
+        <img src="imagens/Sea-of-Stars.jpg" alt="Sea of Stars"/>
+        <h3>Sea of Stars</h3>
+        <div class="score green">90</div>
+        <span class="label">Universal Acclaim</span>
+        <details>
+          <summary>Ver mais</summary>
+          <p><strong>Lore:</strong> Dois heróis nascidos no solstício enfrentam uma profecia para deter criaturas criadas por um alquimista maligno.</p>
+        </details>
+      </div>
+      <div class="game-card">
+        <img src="imagens/Hollow Knight Silksong.jpeg" alt="Hollow Knight: Silksong"/>
+        <h3>Hollow Knight: Silksong</h3>
+        <div class="score yellow">85</div>
+        <span class="label">Great</span>
+        <details>
+          <summary>Ver mais</summary>
+          <p><strong>Lore:</strong> Hornet explora um novo reino repleto de insetos e segredos enquanto busca sua verdadeira identidade.</p>
+        </details>
+      </div>
+      <div class="game-card">
+        <img src="imagens/Cyberpunk 2077.jpeg" alt="Cyberpunk 2077"/>
+        <h3>Cyberpunk 2077</h3>
+        <div class="score yellow">75</div>
+        <span class="label">Mixed Reviews</span>
+        <details>
+          <summary>Ver mais</summary>
+          <p><strong>Lore:</strong> Em uma distopia futurista, V persegue um implante que garante a imortalidade.</p>
+        </details>
+      </div>
+      <div class="game-card">
+        <img src="imagens/Resident Evil Village.jpeg" alt="Resident Evil Village"/>
+        <h3>Resident Evil Village</h3>
+        <div class="score green">84</div>
+        <span class="label">Great</span>
+        <details>
+          <summary>Ver mais</summary>
+          <p><strong>Lore:</strong> Ethan Winters busca sua filha desaparecida em uma vila dominada por horrores biológicos e ocultismo.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="game-section">
+    <div class="section-header">
+      <h2>Upcoming Games</h2>
+    </div>
+    <div class="game-slider">
+      <div class="game-card">
+        <img src="imagens/Starfield.jpeg" alt="Starfield"/>
+        <h3>Starfield</h3>
+        <div class="score yellow">--</div>
+        <span class="label">Coming Soon</span>
+        <details>
+          <summary>Ver mais</summary>
+          <p><strong>Lore:</strong> Um RPG espacial onde a humanidade explora o universo em busca de respostas sobre sua origem.</p>
+        </details>
+      </div>
+      <div class="game-card">
+        <img src="imagens/Tears of the Kingdom.jpg" alt="Tears of the Kingdom"/>
+        <h3>Tears of the Kingdom</h3>
+        <div class="score yellow">--</div>
+        <span class="label">Coming Soon</span>
+        <details>
+          <summary>Ver mais</summary>
+          <p><strong>Lore:</strong> Continuação de Breath of the Wild, com novos mistérios nos céus de Hyrule.</p>
+        </details>
+      </div>
+      <div class="game-card">
+        <img src="imagens/Final Fantasy XVI.jpeg" alt="Final Fantasy XVI"/>
+        <h3>Final Fantasy XVI</h3>
+        <div class="score yellow">--</div>
+        <span class="label">Coming Soon</span>
+        <details>
+          <summary>Ver mais</summary>
+          <p><strong>Lore:</strong> Um mundo medieval dominado por eikons e cristais, onde o destino de clãs colide em guerra.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="best-games-section">
+    <div class="section-header">
+      <h2>Best Games on</h2>
+    </div>
+    <div class="platforms">
+      <button>PS5</button>
+      <button>PC</button>
+      <button>Xbox</button>
+    </div>
+    <div class="top-games">
+      <div class="top-game-card">
+        <img src="imagens/Elden Ring.jpeg" alt="Elden Ring"/>
+        <h3>1. Elden Ring</h3>
+        <div class="score green">96</div>
+        <details>
+          <summary>Ver mais</summary>
+          <p><strong>Lore:</strong> Um mundo devastado pelo rompimento do Elden Ring, onde o Ternado busca restaurar a ordem.</p>
+        </details>
+      </div>
+      <div class="top-game-card">
+        <img src="imagens/God of War Ragnarok.jpeg" alt="God of War Ragnarok"/>
+        <h3>2. God of War Ragnarok</h3>
+        <div class="score green">94</div>
+        <details>
+          <summary>Ver mais</summary>
+          <p><strong>Lore:</strong> Kratos e Atreus enfrentam o apocalipse nórdico enquanto desafiam deuses e profecias.</p>
+        </details>
+      </div>
+      <div class="top-game-card">
+        <img src="imagens/Cyberpunk 2077.jpeg" alt="Cyberpunk 2077"/>
+        <h3>3. Cyberpunk 2077</h3>
+        <div class="score yellow">75</div>
+        <details>
+          <summary>Ver mais</summary>
+          <p><strong>Lore:</strong> Em uma cidade futurista, V busca um implante lendário que concede imortalidade digital.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  &copy; 2025 Games Review. Todos os direitos reservados.
+</footer>
+</body>
+</html>
