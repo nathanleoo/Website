@@ -31,6 +31,6 @@ Design centrado no usuário, com foco em clareza e acessibilidade.
 👨‍🏫 Sobre a Disciplina
 A disciplina Web UX aborda os fundamentos da experiência do usuário na web, incluindo design centrado no usuário, usabilidade, acessibilidade, testes de interface, e princípios de design visual aplicados ao ambiente web.
 
-👥 Autores
+👥 Autores:
 Nathan Leonardo – nathan14leonardo@gmail.com
 
